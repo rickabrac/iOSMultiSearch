@@ -1,13 +1,6 @@
-
-## Errata
-
-• In Xcode 13.1 (the latest version currently runnable on my machine), the view controller snapshot tests fail
-  due to claimed insufficient permissions on a clone of this repository. Hopefully this problem does not occur in newer
-  versions of Xcode.
-
 ## About
 
-• MultiSearch is an iPhone tab bar app I wrote that searches Google, DuckDuckGo and Bing using their respective APIs.
+• MultiSearch is a reference iPhone tab bar I wrote that searches Google, DuckDuckGo and Bing using their respective APIs.
 
 • Select the iPhone 11 Pro simulator and use it for everything. The view controller snapshot tests will fail otherwise.
 
@@ -28,3 +21,9 @@
 • To run the Spanish tests, select "MultiSearch Spanish (Latin America)", tap command-u, then view results in Test Plan Navigator.
 
 • This app depends on swift-snapshot-testing which is included via the Swift Package Manager.
+
+## Errata
+
+• In Xcode 13.1 (the latest version currently runnable on my machine), the view controller snapshot tests fail
+  due to claimed insufficient permissions on a clone of this repository. Hopefully this problem does not occur in newer
+  versions of Xcode.
