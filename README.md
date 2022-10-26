@@ -1,7 +1,7 @@
 
 ## Errata
 
-• In Xcode 13.1 (the latest version currently runnable on my personal machine), the view controller snapshot tests fail
+• In Xcode 13.1 (the latest version currently runnable on my machine), the view controller snapshot tests fail
   due to claimed insufficient permissions on a clone of this repository. Hopefully this problem does not occur in newer
   versions of Xcode.
 
