@@ -1,0 +1,43 @@
+{
+  "configurations" : [
+    {
+      "id" : "8431D3E4-1274-4E2C-8E15-2E318BDE4AE5",
+      "name" : "English",
+      "options" : {
+        "language" : "en",
+        "region" : "US"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "BingSearchViewControllerTests\/testBingSearchViewControllerNoResultDarkSpanish()",
+        "BingSearchViewControllerTests\/testBingSearchViewControllerNoResultLightSpanish()",
+        "DuckDuckGoSearchViewControllerTests\/testDuckDuckGoSearchNoResultDarkSpanish()",
+        "DuckDuckGoSearchViewControllerTests\/testDuckDuckGoSearchNoResultLightSpanish()",
+        "GoogleSearchViewControllerTests\/testGoogleSearchNoResultDarkSpanish()",
+        "GoogleSearchViewControllerTests\/testGoogleSearchNoResultLightSpanish()"
+      ],
+      "target" : {
+        "containerPath" : "container:MultiSearch.xcodeproj",
+        "identifier" : "1D64C99D289EF735006375AF",
+        "name" : "MultiSearchTests"
+      }
+    },
+    {
+      "skippedTests" : [
+        "UITestingDummy"
+      ],
+      "target" : {
+        "containerPath" : "container:MultiSearch.xcodeproj",
+        "identifier" : "1D64C9A7289EF735006375AF",
+        "name" : "MultiSearchUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

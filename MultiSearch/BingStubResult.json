@@ -1,0 +1,234 @@
+{
+  "_type": "SearchResponse",
+  "queryContext": {
+	"originalQuery": "quirk"
+  },
+  "webPages": {
+	"webSearchUrl": "https://www.bing.com/search?q=quirk",
+	"totalEstimatedMatches": 731000000,
+	"value": [
+	  {
+		"id": "https://api.bing.microsoft.com/api/v7/#WebPages.0",
+		"name": "Quirk Definition & Meaning - Merriam-Webster",
+		"url": "https://www.merriam-webster.com/dictionary/quirk",
+		"isFamilyFriendly": true,
+		"displayUrl": "https://www.merriam-webster.com/dictionary/quirk",
+		"snippet": "quirk: [noun] an abrupt twist or curve. a peculiar trait : idiosyncrasy. accident, vagary.",
+		"dateLastCrawled": "2022-08-10T03:52:00.0000000Z",
+		"language": "en",
+		"isNavigational": false
+	  },
+	  {
+		"id": "https://api.bing.microsoft.com/api/v7/#WebPages.1",
+		"name": "QUIRK | meaning in the Cambridge English Dictionary",
+		"url": "https://dictionary.cambridge.org/dictionary/english/quirk",
+		"isFamilyFriendly": true,
+		"displayUrl": "https://dictionary.cambridge.org/dictionary/english/quirk",
+		"snippet": "quirk definition: 1. an unusual habit or part of someone's personality, or something that is strange and unexpected…. Learn more.",
+		"dateLastCrawled": "2022-08-09T05:35:00.0000000Z",
+		"language": "en",
+		"isNavigational": false
+	  },
+	  {
+		"id": "https://api.bing.microsoft.com/api/v7/#WebPages.2",
+		"contractualRules": [
+		  {
+			"_type": "ContractualRules/LicenseAttribution",
+			"targetPropertyName": "snippet",
+			"targetPropertyIndex": 2,
+			"mustBeCloseToContent": true,
+			"license": {
+			  "name": "CC-BY-SA",
+			  "url": "http://creativecommons.org/licenses/by-sa/3.0/"
+			},
+			"licenseNotice": "Text under CC-BY-SA license"
+		  }
+		],
+		"name": "Quirk | My Hero Academia Wiki | Fandom",
+		"url": "https://myheroacademia.fandom.com/wiki/Quirk",
+		"isFamilyFriendly": true,
+		"displayUrl": "https://myheroacademia.fandom.com/wiki/Quirk",
+		"snippet": "Eijiro Kirishima's Quirk first manifesting as a child. A person's Quirk will normally manifest anytime before the age of four, sometimes even straight after birth, such was the case with Present Mic and the Luminescent Baby. Although, there are late bloomers who don't develop their power until a bit later in life; one such example is Tenko Shimura, who didn't develop his Quirk until he was five.",
+		"dateLastCrawled": "2022-08-10T12:06:00.0000000Z",
+		"language": "en",
+		"isNavigational": false
+	  },
+	  {
+		"id": "https://api.bing.microsoft.com/api/v7/#WebPages.3",
+		"name": "Quirk Auto",
+		"url": "https://www.quirkauto.com/",
+		"isFamilyFriendly": true,
+		"displayUrl": "https://www.quirkauto.com",
+		"snippet": "Quirk Auto Group Maine. Searching for a new vehicle? Your search will be cut short once you visit our Quirk dealerships in Augusta, Bangor, Belfast, Portland, and Rockland. At our new and used dealerships, we have a great selection of vehicles ready to be test driven immediately with fresh, updated special offers on your favorite brands.",
+		"dateLastCrawled": "2022-08-10T11:28:00.0000000Z",
+		"language": "en",
+		"isNavigational": false
+	  },
+	  {
+		"id": "https://api.bing.microsoft.com/api/v7/#WebPages.4",
+		"name": "Quirk | Not Just Another Budgeting App",
+		"url": "https://www.quirk.money/",
+		"isFamilyFriendly": true,
+		"displayUrl": "https://www.quirk.money",
+		"snippet": "Quirk is an agent of Plaid Financial Ltd., an authorised payment institution regulated by the Financial Conduct Authority under the Payment Services Regulations 2017 (Firm Reference Number: 804718). Plaid provides you with regulated account information services through Quirk as its agent.",
+		"dateLastCrawled": "2022-08-10T02:57:00.0000000Z",
+		"language": "en",
+		"isNavigational": false
+	  },
+	  {
+		"id": "https://api.bing.microsoft.com/api/v7/#WebPages.5",
+		"name": "Quirk – Boulevard Brewing Co",
+		"url": "https://store.boulevard.com/collections/quirk",
+		"isFamilyFriendly": true,
+		"displayUrl": "https://store.boulevard.com/collections/quirk",
+		"snippet": "Quirk. At Boulevard Beverage Company, we celebrate eccentricity. Quirk Spiked & Sparkling seltzers are infinitely enjoyable, brimming with unpredictable individuality. With real fruit juice and clean, all-natural ingredients, these unique flavors are 1oo% guilt-free, and 1oo% delightful. Click here to learn more.",
+		"dateLastCrawled": "2022-08-09T23:57:00.0000000Z",
+		"language": "en",
+		"isNavigational": false
+	  },
+	  {
+		"id": "https://api.bing.microsoft.com/api/v7/#WebPages.6",
+		"name": "Quirk: Quantum Circuit Simulator",
+		"url": "https://algassert.com/quirk",
+		"isFamilyFriendly": true,
+		"displayUrl": "https://algassert.com/quirk",
+		"snippet": "Quirk is an open-source drag-and-drop quantum circuit simulator for exploring and understanding small quantum circuits.",
+		"dateLastCrawled": "2022-08-10T16:17:00.0000000Z",
+		"language": "en",
+		"isNavigational": false
+	  },
+	  {
+		"id": "https://api.bing.microsoft.com/api/v7/#WebPages.7",
+		"name": "Dealership Group MA | Used Cars Quirk Cars",
+		"url": "https://www.quirkcars.com/",
+		"isFamilyFriendly": true,
+		"displayUrl": "https://www.quirkcars.com",
+		"snippet": "Quirk Cars is a dealership group located near MA. We're here to help with any automotive needs you may have. Don't forget to check out our used cars. Map MA Today 9-8pm New View all [2680] Ford [165] Chevrolet [619] Buick [24 ...",
+		"dateLastCrawled": "2022-08-09T00:14:00.0000000Z",
+		"language": "en",
+		"isNavigational": false
+	  }
+	],
+	"someResultsRemoved": true
+  },
+  "relatedSearches": {
+	"id": "https://api.bing.microsoft.com/api/v7/#RelatedSearches",
+	"value": [
+	  {
+		"text": "quirk used car inventory",
+		"displayText": "quirk used car inventory",
+		"webSearchUrl": "https://www.bing.com/search?q=quirk+used+car+inventory"
+	  },
+	  {
+		"text": "what does quirk mean",
+		"displayText": "what does quirk mean",
+		"webSearchUrl": "https://www.bing.com/search?q=what+does+quirk+mean"
+	  },
+	  {
+		"text": "quirks conference 2022",
+		"displayText": "quirks conference 2022",
+		"webSearchUrl": "https://www.bing.com/search?q=quirks+conference+2022"
+	  },
+	  {
+		"text": "quirk chevy braintree",
+		"displayText": "quirk chevy braintree",
+		"webSearchUrl": "https://www.bing.com/search?q=quirk+chevy+braintree"
+	  },
+	  {
+		"text": "quirk chevy bangor",
+		"displayText": "quirk chevy bangor",
+		"webSearchUrl": "https://www.bing.com/search?q=quirk+chevy+bangor"
+	  },
+	  {
+		"text": "quirk and son funeral home",
+		"displayText": "quirk and son funeral home",
+		"webSearchUrl": "https://www.bing.com/search?q=quirk+and+son+funeral+home"
+	  },
+	  {
+		"text": "quirk auto portland maine",
+		"displayText": "quirk auto portland maine",
+		"webSearchUrl": "https://www.bing.com/search?q=quirk+auto+portland+maine"
+	  },
+	  {
+		"text": "quirk chevy manchester nh",
+		"displayText": "quirk chevy manchester nh",
+		"webSearchUrl": "https://www.bing.com/search?q=quirk+chevy+manchester+nh"
+	  }
+	]
+  },
+  "rankingResponse": {
+	"mainline": {
+	  "items": [
+		{
+		  "answerType": "WebPages",
+		  "resultIndex": 0,
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#WebPages.0"
+		  }
+		},
+		{
+		  "answerType": "WebPages",
+		  "resultIndex": 1,
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#WebPages.1"
+		  }
+		},
+		{
+		  "answerType": "WebPages",
+		  "resultIndex": 2,
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#WebPages.2"
+		  }
+		},
+		{
+		  "answerType": "WebPages",
+		  "resultIndex": 3,
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#WebPages.3"
+		  }
+		},
+		{
+		  "answerType": "WebPages",
+		  "resultIndex": 4,
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#WebPages.4"
+		  }
+		},
+		{
+		  "answerType": "WebPages",
+		  "resultIndex": 5,
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#WebPages.5"
+		  }
+		},
+		{
+		  "answerType": "WebPages",
+		  "resultIndex": 6,
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#WebPages.6"
+		  }
+		},
+		{
+		  "answerType": "WebPages",
+		  "resultIndex": 7,
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#WebPages.7"
+		  }
+		},
+		{
+		  "answerType": "RelatedSearches",
+		  "value": {
+			"id": "https://api.bing.microsoft.com/api/v7/#RelatedSearches"
+		  }
+		}
+	  ]
+	},
+	"sidebar": {
+	  "items": [
+		{
+		  "answerType": "Entities"
+		}
+	  ]
+	}
+  }
+}

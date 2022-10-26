@@ -1,0 +1,261 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - joke",
+        "totalResults": "682000000",
+        "searchTerms": "joke",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "017576662512468239146:omuauf_lfve"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - joke",
+        "totalResults": "682000000",
+        "searchTerms": "joke",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "017576662512468239146:omuauf_lfve"
+      }
+    ]
+  },
+  "context": {
+    "title": "CS Curriculum",
+    "facets": [
+      [
+        {
+          "anchor": "Lectures",
+          "label": "lectures",
+          "label_with_op": "more:lectures"
+        }
+      ],
+      [
+        {
+          "anchor": "Assignments",
+          "label": "assignments",
+          "label_with_op": "more:assignments"
+        }
+      ],
+      [
+        {
+          "anchor": "Reference",
+          "label": "reference",
+          "label_with_op": "more:reference"
+        }
+      ]
+    ]
+  },
+  "searchInformation": {
+    "searchTime": 0.394223,
+    "formattedSearchTime": "0.39",
+    "totalResults": "682000000",
+    "formattedTotalResults": "682,000,000"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Joke Index Page",
+      "htmlTitle": "\u003cb\u003eJoke\u003c/b\u003e Index Page",
+      "link": "https://www.cs.utexas.edu/users/dastuart/jdir/",
+      "displayLink": "www.cs.utexas.edu",
+      "snippet": "Under Construction. Joke Index Page. I am working on setting up some html joke pages. They contain things off the net, that I've seen/heard on TV, ...",
+      "htmlSnippet": "Under Construction. \u003cb\u003eJoke\u003c/b\u003e Index Page. I am working on setting up some html \u003cb\u003ejoke\u003c/b\u003e pages. They contain things off the net, that I&#39;ve seen/heard on TV,&nbsp;...",
+      "cacheId": "pMNfY0admicJ",
+      "formattedUrl": "https://www.cs.utexas.edu/users/dastuart/jdir/",
+      "htmlFormattedUrl": "https://www.cs.utexas.edu/users/dastuart/jdir/"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Belgium joke",
+      "htmlTitle": "Belgium \u003cb\u003ejoke\u003c/b\u003e",
+      "link": "http://www.cs.cmu.edu/afs/cs/academic/class/15612-s97/class/lmichaud/joke.htm",
+      "displayLink": "www.cs.cmu.edu",
+      "snippet": "Jokes. Once upon a time there was two belgiums guys riding in a truck around Bruxell. There comes a bridge in front of them. A sign says 6 feet maximum ...",
+      "htmlSnippet": "\u003cb\u003eJokes\u003c/b\u003e. Once upon a time there was two belgiums guys riding in a truck around Bruxell. There comes a bridge in front of them. A sign says 6 feet maximum&nbsp;...",
+      "cacheId": "X0PpEWLixNwJ",
+      "formattedUrl": "www.cs.cmu.edu/afs/cs/academic/class/15612-s97/class/.../joke.htm",
+      "htmlFormattedUrl": "www.cs.cmu.edu/afs/cs/academic/class/15612-s97/class/.../\u003cb\u003ejoke\u003c/b\u003e.htm"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Fast String Searching - UT Computer Science",
+      "htmlTitle": "Fast String Searching - UT Computer Science",
+      "link": "https://www.cs.utexas.edu/~scottm/fb/J_Moore_fss-talk.pdf",
+      "displayLink": "www.cs.utexas.edu",
+      "snippet": "The glorified closet, the subject of a running joke on the comedy show, now in its 31st season, can simultaneously house a wisecracking ... 3. Page 4 ...",
+      "htmlSnippet": "The glorified closet, the subject of a running \u003cb\u003ejoke\u003c/b\u003e on the comedy show, now in its 31st season, can simultaneously house a wisecracking ... 3. Page 4&nbsp;...",
+      "cacheId": "VUYCdCX-JqAJ",
+      "formattedUrl": "https://www.cs.utexas.edu/~scottm/fb/J_Moore_fss-talk.pdf",
+      "htmlFormattedUrl": "https://www.cs.utexas.edu/~scottm/fb/J_Moore_fss-talk.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQbP_0u8-lg-YV9yrwA_eXfvyG75irIuXAiaONQh-yMerTwqixN_n-FaJE",
+            "width": "253",
+            "height": "199"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20080707140057",
+            "creationdate": "D:20080707140057",
+            "creator": "dvips(k) 5.95a Copyright 2005 Radical Eye Software",
+            "producer": "AFPL Ghostscript 8.51",
+            "title": "fss-talk.dvi"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///f23e6085d0b6cb6a880525af4f2fc07073406f085075bae97dd6e12da323e914"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Index of /~cs3214/spring2015/projects/student-plugins ... - Courses",
+      "htmlTitle": "Index of /~cs3214/spring2015/projects/student-plugins ... - Courses",
+      "link": "https://courses.cs.vt.edu/~cs3214/spring2015/projects/student-plugins//wvicto7_aaronk1/joke/",
+      "displayLink": "courses.cs.vt.edu",
+      "snippet": "Index of /~cs3214/spring2015/projects/student-plugins/wvicto7_aaronk1/joke. [ICO], Name · Last modified · Size · Description. [PARENTDIR] ...",
+      "htmlSnippet": "Index of /~cs3214/spring2015/projects/student-plugins/wvicto7_aaronk1/\u003cb\u003ejoke\u003c/b\u003e. [ICO], Name &middot; Last modified &middot; Size &middot; Description. [PARENTDIR]&nbsp;...",
+      "cacheId": "rqZWhs5I9rEJ",
+      "formattedUrl": "https://courses.cs.vt.edu/~cs3214/spring2015/projects/student.../joke/",
+      "htmlFormattedUrl": "https://courses.cs.vt.edu/~cs3214/spring2015/projects/student.../\u003cb\u003ejoke\u003c/b\u003e/"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Homework 3; COM S 519, Spring 2002 - Cornell CS",
+      "htmlTitle": "Homework 3; COM S 519, Spring 2002 - Cornell CS",
+      "link": "http://www.cs.cornell.edu/courses/cs519/2002sp/hw3_tcphijack_questions.html",
+      "displayLink": "www.cs.cornell.edu",
+      "snippet": "The network set up was as follows: a LinkSys Cable Router/DHCP Server (not connected to the Internet), a laptop running Windows 2000, a laptop running Linux and ...",
+      "htmlSnippet": "The network set up was as follows: a LinkSys Cable Router/DHCP Server (not connected to the Internet), a laptop running Windows 2000, a laptop running Linux and&nbsp;...",
+      "cacheId": "ckCrS_YQuhkJ",
+      "formattedUrl": "www.cs.cornell.edu/courses/cs519/2002sp/hw3_tcphijack_questions.html",
+      "htmlFormattedUrl": "www.cs.cornell.edu/courses/cs519/2002sp/hw3_tcphijack_questions.html",
+      "labels": [
+        {
+          "name": "assignments",
+          "displayName": "Assignments",
+          "label_with_op": "more:assignments"
+        }
+      ]
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Killing Joke :: Love Like Blood [RETRO80S_001-15]",
+      "htmlTitle": "Killing \u003cb\u003eJoke\u003c/b\u003e :: Love Like Blood [RETRO80S_001-15]",
+      "link": "https://www.cs.ubc.ca/~davet/music/track/RETRO80S_001/RETRO80S_001-15.html",
+      "displayLink": "www.cs.ubc.ca",
+      "snippet": "Lyrics. Original Source: LyricWiki. We must play our lives like soldiers in the field. The life is short, I'm running faster all the time",
+      "htmlSnippet": "Lyrics. Original Source: LyricWiki. We must play our lives like soldiers in the field. The life is short, I&#39;m running faster all the time",
+      "cacheId": "fV7hPCVPY_wJ",
+      "formattedUrl": "https://www.cs.ubc.ca/~davet/music/track/...001/RETRO80S_001-15.html",
+      "htmlFormattedUrl": "https://www.cs.ubc.ca/~davet/music/track/...001/RETRO80S_001-15.html"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Activity - File I/O - Dartmouth",
+      "htmlTitle": "Activity - File I/O - Dartmouth",
+      "link": "https://www.cs.dartmouth.edu/~cs50/Lectures/c3/activity2.html",
+      "displayLink": "www.cs.dartmouth.edu",
+      "snippet": "An example of running it with three file names, where joke file does not exist: $ ./fileIO labs/lab1-xia-z/query.sh joke labs/lab1-xia-z/README.md ...",
+      "htmlSnippet": "An example of running it with three file names, where \u003cb\u003ejoke\u003c/b\u003e file does not exist: $ ./fileIO labs/lab1-xia-z/query.sh \u003cb\u003ejoke\u003c/b\u003e labs/lab1-xia-z/README.md&nbsp;...",
+      "cacheId": "aNs-z4ZhkpcJ",
+      "formattedUrl": "https://www.cs.dartmouth.edu/~cs50/Lectures/c3/activity2.html",
+      "htmlFormattedUrl": "https://www.cs.dartmouth.edu/~cs50/Lectures/c3/activity2.html",
+      "pagemap": {
+        "metatags": [
+          {
+            "viewport": "width=device-width, initial-scale=1"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Institutional Reporting and Analysis (IRA)",
+      "htmlTitle": "Institutional Reporting and Analysis (IRA)",
+      "link": "https://www.cs.dartmouth.edu/campbell/cs65/2013/assessment.pdf",
+      "displayLink": "www.cs.dartmouth.edu",
+      "snippet": "Mar 18, 2013 ... And although terrible those jokes really added a nice touch to the class. ... Update the lecture notes, it's frustrating that you joke about ...",
+      "htmlSnippet": "Mar 18, 2013 \u003cb\u003e...\u003c/b\u003e And although terrible those \u003cb\u003ejokes\u003c/b\u003e really added a nice touch to the class. ... Update the lecture notes, it&#39;s frustrating that you \u003cb\u003ejoke\u003c/b\u003e about&nbsp;...",
+      "cacheId": "9KqfgshzZF0J",
+      "formattedUrl": "https://www.cs.dartmouth.edu/campbell/cs65/2013/assessment.pdf",
+      "htmlFormattedUrl": "https://www.cs.dartmouth.edu/campbell/cs65/2013/assessment.pdf",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTIl8gaCiROvmIa_BbbvM2LN8H7WqC8UsaCWTVLFxCbGvDAP-9pCWYXpt80",
+            "width": "197",
+            "height": "255"
+          }
+        ],
+        "metatags": [
+          {
+            "moddate": "D:20130330182925Z00'00'",
+            "creator": "Preview",
+            "creationdate": "D:20130330182925Z00'00'",
+            "author": "Andrew T. Campbell",
+            "producer": "Mac OS X 10.8.2 Quartz PDFContext",
+            "title": "dart-educational-survey"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "x-raw-image:///06f9a0083d27278f36e33e6a80455493f04152cf5d4756fc8324f9084b320684"
+          }
+        ]
+      },
+      "mime": "application/pdf",
+      "fileFormat": "PDF/Adobe Acrobat"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Random",
+      "htmlTitle": "Random",
+      "link": "https://student.cs.uwaterloo.ca/~shwen/misc/random.html",
+      "displayLink": "student.cs.uwaterloo.ca",
+      "snippet": "Biggest Joke in CS350. There is this mysterious file in CS350's common directory which indicates. PLEASE USE THIS FILE TO LOG ANY CHANGES TO FILES IN THIS ...",
+      "htmlSnippet": "Biggest \u003cb\u003eJoke\u003c/b\u003e in CS350. There is this mysterious file in CS350&#39;s common directory which indicates. PLEASE USE THIS FILE TO LOG ANY CHANGES TO FILES IN THIS&nbsp;...",
+      "cacheId": "HXTdMXGYW5wJ",
+      "formattedUrl": "https://student.cs.uwaterloo.ca/~shwen/misc/random.html",
+      "htmlFormattedUrl": "https://student.cs.uwaterloo.ca/~shwen/misc/random.html"
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "15-494/694 Cognitive Robotics: Lab 6",
+      "htmlTitle": "15-494/694 Cognitive Robotics: Lab 6",
+      "link": "http://www.cs.cmu.edu/afs/cs/academic/class/15494-s20/labs/lab6/lab6.html",
+      "displayLink": "www.cs.cmu.edu",
+      "snippet": "Feb 18, 2017 ... Program Cozmo to respond to the command \"Cozmo tell me a joke\". Does speech recognition work for you? Homework.",
+      "htmlSnippet": "Feb 18, 2017 \u003cb\u003e...\u003c/b\u003e Program Cozmo to respond to the command &quot;Cozmo tell me a \u003cb\u003ejoke\u003c/b\u003e&quot;. Does speech recognition work for you? Homework.",
+      "cacheId": "c7y7kktgk_gJ",
+      "formattedUrl": "www.cs.cmu.edu/afs/cs/academic/class/15494-s20/labs/lab6/lab6.html",
+      "htmlFormattedUrl": "www.cs.cmu.edu/afs/cs/academic/class/15494-s20/labs/lab6/lab6.html",
+      "labels": [
+        {
+          "name": "assignments",
+          "displayName": "Assignments",
+          "label_with_op": "more:assignments"
+        }
+      ]
+    }
+  ]
+}

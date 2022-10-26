@@ -1,0 +1,60 @@
+{
+  "configurations" : [
+    {
+      "id" : "243B42AA-390A-49AE-BDA5-BA156E1339D7",
+      "name" : "Spanish",
+      "options" : {
+        "language" : "es-419",
+        "region" : "US"
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "BingSearchViewControllerTests",
+        "BingSearchViewControllerTests\/testBingSearchViewControllerDark()",
+        "BingSearchViewControllerTests\/testBingSearchViewControllerLight()",
+        "BingSearchViewControllerTests\/testBingSearchViewControllerNoResultDark()",
+        "BingSearchViewControllerTests\/testBingSearchViewControllerNoResultLight()",
+        "BingSearchViewModelTests",
+        "BingViewControllerTests\/testBingViewControllerDark()",
+        "BingViewControllerTests\/testBingViewControllerLight()",
+        "BingViewControllerTests\/testBingViewControllerNoResultDark()",
+        "BingViewControllerTests\/testBingViewControllerNoResultLight()",
+        "BingViewModelTests",
+        "DuckDuckGoSearchViewControllerTests",
+        "DuckDuckGoSearchViewControllerTests\/testDuckDuckGoSearchNoResultDark()",
+        "DuckDuckGoSearchViewControllerTests\/testDuckDuckGoSearchNoResultLight()",
+        "DuckDuckGoSearchViewControllerTests\/testDuckDuckGoSearchResultDark()",
+        "DuckDuckGoSearchViewControllerTests\/testDuckDuckGoSearchResultLight()",
+        "DuckDuckGoSearchViewModelTests",
+        "DuckDuckGoViewControllerTests\/testDuckDuckGoNoResultDark()",
+        "DuckDuckGoViewControllerTests\/testDuckDuckGoNoResultLight()",
+        "DuckDuckGoViewControllerTests\/testDuckDuckGoResultDark()",
+        "DuckDuckGoViewControllerTests\/testDuckDuckGoResultLight()",
+        "DuckDuckGoViewModelTests",
+        "GoogleSearchViewControllerTests",
+        "GoogleSearchViewControllerTests\/testGoogleSearchNoResultDark()",
+        "GoogleSearchViewControllerTests\/testGoogleSearchNoResultLight()",
+        "GoogleSearchViewControllerTests\/testGoogleSearchResultDark()",
+        "GoogleSearchViewControllerTests\/testGoogleSearchResultLight()",
+        "GoogleSearchViewModelTests",
+        "GoogleViewControllerTests\/testGoogleNoResultDark()",
+        "GoogleViewControllerTests\/testGoogleNoResultLight()",
+        "GoogleViewControllerTests\/testGoogleResultDark()",
+        "GoogleViewControllerTests\/testGoogleResultLight()",
+        "GoogleViewModelTests"
+      ],
+      "target" : {
+        "containerPath" : "container:MultiSearch.xcodeproj",
+        "identifier" : "1D64C99D289EF735006375AF",
+        "name" : "MultiSearchTests"
+      }
+    }
+  ],
+  "version" : 1
+}
