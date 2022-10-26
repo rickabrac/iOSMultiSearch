@@ -22,7 +22,7 @@
 		1D64C993289EF733006375AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D64C991289EF733006375AF /* Main.storyboard */; };
 		1D64C995289EF734006375AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D64C994289EF734006375AF /* Assets.xcassets */; };
 		1D64C998289EF734006375AF /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D64C996289EF734006375AF /* Splash.storyboard */; };
-		1D64C9C5289EFD7C006375AF /* DuckDuckGoSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64C9C4289EFD7C006375AF /* DuckDuckGoSearchController.swift */; };
+		1D64C9C5289EFD7C006375AF /* DuckDuckGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64C9C4289EFD7C006375AF /* DuckDuckGoViewController.swift */; };
 		1D64C9CD289F1A24006375AF /* DuckDuckGoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64C9CC289F1A24006375AF /* DuckDuckGoSearch.swift */; };
 		1D64C9CF289F1A2E006375AF /* GoogleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64C9CE289F1A2E006375AF /* GoogleSearch.swift */; };
 		1D8B106F28B0A3830039F422 /* UIDummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B106E28B0A3830039F422 /* UIDummyTests.swift */; };
@@ -89,7 +89,7 @@
 		1D64C999289EF734006375AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D64C99E289EF735006375AF /* MultiSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D64C9A8289EF735006375AF /* MultiSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D64C9C4289EFD7C006375AF /* DuckDuckGoSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoSearchController.swift; sourceTree = "<group>"; };
+		1D64C9C4289EFD7C006375AF /* DuckDuckGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoViewController.swift; sourceTree = "<group>"; };
 		1D64C9CC289F1A24006375AF /* DuckDuckGoSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoSearch.swift; sourceTree = "<group>"; };
 		1D64C9CE289F1A2E006375AF /* GoogleSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSearch.swift; sourceTree = "<group>"; };
 		1D8B106E28B0A3830039F422 /* UIDummyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDummyTests.swift; sourceTree = "<group>"; };
@@ -261,7 +261,7 @@
 		1DB3BA06289FB33300AA9291 /* UIKit (Storyboard) */ = {
 			isa = PBXGroup;
 			children = (
-				1D64C9C4289EFD7C006375AF /* DuckDuckGoSearchController.swift */,
+				1D64C9C4289EFD7C006375AF /* DuckDuckGoViewController.swift */,
 				1D5E02D228A19ACD009B960F /* DuckDuckGoTableViewCell.swift */,
 				1DB3BA00289F9BD500AA9291 /* SearchResultViewController.swift */,
 				1D64C991289EF733006375AF /* Main.storyboard */,
@@ -488,7 +488,7 @@
 				1DF255E528A6126B002C1DBF /* SearchResultUIView.swift in Sources */,
 				1DF2564A28A84F2B002C1DBF /* WebSearchViewModel.swift in Sources */,
 				1DF255DD28A4EFA5002C1DBF /* BingUIView.swift in Sources */,
-				1D64C9C5289EFD7C006375AF /* DuckDuckGoSearchController.swift in Sources */,
+				1D64C9C5289EFD7C006375AF /* DuckDuckGoViewController.swift in Sources */,
 				1DB3BA0B28A0607E00AA9291 /* BingSearch.swift in Sources */,
 				1DB4D84C28AD601F00190DC1 /* SceneDelegate.swift in Sources */,
 				1D34B2D02905BAA600E1CE9D /* GoogleTableViewCell.swift in Sources */,
