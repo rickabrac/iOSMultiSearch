@@ -1,6 +1,6 @@
 ## About
 
-• MultiSearch is a reference iPhone tab bar I wrote that searches Google, DuckDuckGo and Bing using their respective APIs.
+• MultiSearch is a reference iPhone tab bar app I wrote that searches Google, DuckDuckGo and Bing using their respective APIs.
 
 • Select the iPhone 11 Pro simulator and use it for everything. The view controller snapshot tests will fail otherwise.
 
