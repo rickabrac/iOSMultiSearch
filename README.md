@@ -10,7 +10,7 @@
 
 • The app is localized to support English and Latin-American Spanish.
 
-• View are built three ways: UIKit w/ Storyboard (DuckDuckGoSearch), Declarative UIKit (GoogleSearch), and SwiftUI (BingSearch)
+• View are built three ways: UIKit w/ Storyboard (DuckDuckGo), Declarative UIKit (Google), and SwiftUI (Bing)
 
 ## Testing
 
