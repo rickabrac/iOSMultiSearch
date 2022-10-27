@@ -19,7 +19,7 @@ class MultiSearchUITests: XCTestCase {
 		app.launchArguments = ["UITestingMode"]
 		app.launch()
 		
-		// DuckDuckGoSearch
+		// DuckDuckGo
 
 		XCTAssert(app.staticTexts["DuckDuckGo"].exists)
 
@@ -36,7 +36,7 @@ class MultiSearchUITests: XCTestCase {
 		let ddgResultItem = ddgTableView.staticTexts["Test (wrestler) A Canadian professional wrestler and actor."]
 		XCTAssert(ddgResultItem.exists)
 		
-		// GoogleSearch
+		// Google
 
 		let tabBar = app.tabBars["Tab Bar"]
 		
@@ -56,7 +56,7 @@ class MultiSearchUITests: XCTestCase {
 		let googleResultItem = googleTableView.staticTexts["The all-in-one platform for remote depositions. Reliable and remarkably easy."]
 		XCTAssert(googleResultItem.exists)
 		
-		// BingSearch
+		// Bing
 		
 		tabBar.buttons["Bing"].tap()
 		XCTAssert(app.staticTexts["Bing"].exists)
