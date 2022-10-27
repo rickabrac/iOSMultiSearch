@@ -1,9 +1,9 @@
 //
-//  DummyUITests.swift
+//  UIDummyTests.swift
 //  MultiSearchUITests
 //  Created by Rick Tyler
 //
-//  Recording experimentation dummy
+//  Recording experiment test dummy
 //
 
 import XCTest
@@ -21,6 +21,6 @@ class UIDummyTests: XCTestCase {
 		app.launchArguments = ["UITestingMode"]
 		app.launch()
 				
-		// Use for recording experiements
+		// Place cursor on next line, press red record button below to experiment
     }
 }
