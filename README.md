@@ -8,7 +8,7 @@
 
 • The app supports dark and light mode.
 
-• The app is localized to support English and Latin-American Spanish.
+• The app is localized to support English and Latin-American Spanish (although search engine results are only English).
 
 • View are built three ways: UIKit w/ Storyboard (DuckDuckGo), Declarative UIKit (Google), and SwiftUI (Bing)
 

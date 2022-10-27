@@ -5,6 +5,6 @@
 //
 
 protocol SearchRequest: Codable {
-	associatedtype Search
-	func getResult() -> [Search]
+	associatedtype Result
+	func getResult() -> [Result]
 }
