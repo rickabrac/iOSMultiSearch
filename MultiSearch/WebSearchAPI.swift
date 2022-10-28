@@ -51,8 +51,7 @@ class WebSearchAPI<Search: SearchRequest, Result: SearchResult>: Codable {
 				errorString = "\(Search.self).fetch(): HTTP error (\(response.statusCode))"
 				return
 			}
-			let decoder = JSONDecoder()
-			if let data = data, let search = try? decoder.decode(Search.self, from: data) {
+			if let data = data, let search = try? JSONDecoder().decode(Search.self, from: data) {
 				result = search.getResult() as! [SearchResult]
 			}
 		})
