@@ -251,15 +251,15 @@
 			isa = PBXGroup;
 			children = (
 				1DB4D83B28AC3E3A00190DC1 /* WebSearchAPI.swift */,
-				1D8A3430290C641C00C3A946 /* BingAPI.swift */,
 				1DB3BA0A28A0607E00AA9291 /* BingSearch.swift */,
 				1D8A342E290C641600C3A946 /* BingResult.swift */,
-				1D8A3426290C635500C3A946 /* DuckDuckGoAPI.swift */,
+				1D8A3430290C641C00C3A946 /* BingAPI.swift */,
 				1D64C9CC289F1A24006375AF /* DuckDuckGoSearch.swift */,
 				1D8A3428290C63A400C3A946 /* DuckDuckGoResult.swift */,
-				1D8A342A290C63E600C3A946 /* GoogleAPI.swift */,
+				1D8A3426290C635500C3A946 /* DuckDuckGoAPI.swift */,
 				1D64C9CE289F1A2E006375AF /* GoogleSearch.swift */,
 				1D8A342C290C63EE00C3A946 /* GoogleResult.swift */,
+				1D8A342A290C63E600C3A946 /* GoogleAPI.swift */,
 				1D95A54728AFF2370060E2F1 /* InfoPListEntry.swift */,
 			);
 			name = Models;
