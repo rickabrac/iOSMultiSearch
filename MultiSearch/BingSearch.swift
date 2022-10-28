@@ -10,9 +10,9 @@ class BingSearch: SearchRequest {
 	typealias SearchRequest = BingSearch
 	typealias SearchResult = BingResult
 	
-	private var webPages: BingResultValue?    // Codable backend response property
+	private var webPages: BingResultValue?    // backend response property
 	
-	// MARK: SearchRequest conformance
+	// MARK: SearchResult conformance
 	
 	func getResult() -> [BingResult] {
 		guard let result = webPages?.value else { return [] }

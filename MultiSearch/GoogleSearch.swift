@@ -10,7 +10,7 @@ class GoogleSearch: SearchRequest {
 	typealias SearchRequest = GoogleSearch
 	typealias SearchResult = GoogleResult
 	
-	private var items: [GoogleResult]	// Codable backend response property
+	private var items: [GoogleResult]	// backend response property
 	
 	// MARK: SearchRequest conformance
 

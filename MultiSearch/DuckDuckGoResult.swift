@@ -7,9 +7,9 @@
 import Foundation
 
 struct DuckDuckGoResult: SearchResult {
-	var Text: String?
-	var FirstURL: String?
-	var Topics: [DuckDuckGoResult]?
+	var Text: String?                      // backend response property
+	var FirstURL: String?                  // backend response property
+	var Topics: [DuckDuckGoResult]?        // backend response property
 	
 	// MARK: SearchResult conformance
 

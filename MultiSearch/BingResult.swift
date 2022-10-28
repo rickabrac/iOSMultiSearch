@@ -7,8 +7,8 @@
 import Foundation
 
 struct BingResult: SearchResult, Hashable {
-	var url: String?
-	var snippet: String?
+	var url: String?        // backend response property
+	var snippet: String?    // backend response property
 
 	// MARK: SearchResult conformance
 

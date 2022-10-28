@@ -10,8 +10,8 @@ class DuckDuckGoSearch: SearchRequest {
 	typealias SearchRequest = DuckDuckGoSearch
 	typealias SearchResult = DuckDuckGoResult
 	
-	private var Topics: [DuckDuckGoResult]?           	// Codable backend response property
-	private var RelatedTopics: [DuckDuckGoResult]?      // Codable backend response property
+	private var Topics: [DuckDuckGoResult]?           	// backend response property
+	private var RelatedTopics: [DuckDuckGoResult]?      // backend response property
 	
 	// MARK: SearchRequest conformance
 	

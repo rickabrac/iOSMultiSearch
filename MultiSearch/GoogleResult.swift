@@ -7,8 +7,8 @@
 import Foundation
 
 class GoogleResult: SearchResult {
-	var link: String?
-	var snippet: String?
+	var link: String?       // backend response property
+	var snippet: String?    // backend response property
 	
 	// MARK: SearchResult conformance
 	
