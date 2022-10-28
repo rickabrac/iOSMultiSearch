@@ -11,6 +11,8 @@ class GoogleSearch: SearchRequest {
 	typealias SearchResult = GoogleResult
 	
 	private var items: [GoogleResult]	// Codable backend response property
+	
+	// MARK: SearchRequest conformance
 
 	func getResult() -> [GoogleResult] {
 		return items

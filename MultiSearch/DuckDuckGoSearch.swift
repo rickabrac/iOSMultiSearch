@@ -13,6 +13,8 @@ class DuckDuckGoSearch: SearchRequest {
 	private var Topics: [DuckDuckGoResult]?           	// Codable backend response property
 	private var RelatedTopics: [DuckDuckGoResult]?      // Codable backend response property
 	
+	// MARK: SearchRequest conformance
+	
 	func getResult() -> [DuckDuckGoResult] {
 		var result: [DuckDuckGoResult] = []
 		if let topics = Topics {

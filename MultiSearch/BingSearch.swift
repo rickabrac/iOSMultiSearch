@@ -12,6 +12,8 @@ class BingSearch: SearchRequest {
 	
 	private var webPages: BingResultValue?    // Codable backend response property
 	
+	// MARK: SearchRequest conformance
+	
 	func getResult() -> [BingResult] {
 		guard let result = webPages?.value else { return [] }
 		return result
