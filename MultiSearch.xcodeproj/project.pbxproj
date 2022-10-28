@@ -25,6 +25,12 @@
 		1D64C9C5289EFD7C006375AF /* DuckDuckGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64C9C4289EFD7C006375AF /* DuckDuckGoViewController.swift */; };
 		1D64C9CD289F1A24006375AF /* DuckDuckGoSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64C9CC289F1A24006375AF /* DuckDuckGoSearch.swift */; };
 		1D64C9CF289F1A2E006375AF /* GoogleSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D64C9CE289F1A2E006375AF /* GoogleSearch.swift */; };
+		1D8A3427290C635500C3A946 /* DuckDuckGoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A3426290C635500C3A946 /* DuckDuckGoAPI.swift */; };
+		1D8A3429290C63A400C3A946 /* DuckDuckGoResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A3428290C63A400C3A946 /* DuckDuckGoResult.swift */; };
+		1D8A342B290C63E600C3A946 /* GoogleAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A342A290C63E600C3A946 /* GoogleAPI.swift */; };
+		1D8A342D290C63EE00C3A946 /* GoogleResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A342C290C63EE00C3A946 /* GoogleResult.swift */; };
+		1D8A342F290C641600C3A946 /* BingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A342E290C641600C3A946 /* BingResult.swift */; };
+		1D8A3431290C641C00C3A946 /* BingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A3430290C641C00C3A946 /* BingAPI.swift */; };
 		1D8B106F28B0A3830039F422 /* UIDummyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8B106E28B0A3830039F422 /* UIDummyTests.swift */; };
 		1D95A54828AFF2370060E2F1 /* InfoPListEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D95A54728AFF2370060E2F1 /* InfoPListEntry.swift */; };
 		1D969A8C28ADA31900CF8732 /* MultiSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D969A8B28ADA31900CF8732 /* MultiSearchUITests.swift */; };
@@ -92,6 +98,12 @@
 		1D64C9C4289EFD7C006375AF /* DuckDuckGoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoViewController.swift; sourceTree = "<group>"; };
 		1D64C9CC289F1A24006375AF /* DuckDuckGoSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoSearch.swift; sourceTree = "<group>"; };
 		1D64C9CE289F1A2E006375AF /* GoogleSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSearch.swift; sourceTree = "<group>"; };
+		1D8A3426290C635500C3A946 /* DuckDuckGoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoAPI.swift; sourceTree = "<group>"; };
+		1D8A3428290C63A400C3A946 /* DuckDuckGoResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckDuckGoResult.swift; sourceTree = "<group>"; };
+		1D8A342A290C63E600C3A946 /* GoogleAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAPI.swift; sourceTree = "<group>"; };
+		1D8A342C290C63EE00C3A946 /* GoogleResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleResult.swift; sourceTree = "<group>"; };
+		1D8A342E290C641600C3A946 /* BingResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingResult.swift; sourceTree = "<group>"; };
+		1D8A3430290C641C00C3A946 /* BingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingAPI.swift; sourceTree = "<group>"; };
 		1D8B106E28B0A3830039F422 /* UIDummyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDummyTests.swift; sourceTree = "<group>"; };
 		1D95A54328AEC6460060E2F1 /* GoogleViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewControllerTests.swift; sourceTree = "<group>"; };
 		1D95A54528AEC6620060E2F1 /* BingViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingViewControllerTests.swift; sourceTree = "<group>"; };
@@ -239,9 +251,15 @@
 			isa = PBXGroup;
 			children = (
 				1DB4D83B28AC3E3A00190DC1 /* WebSearchAPI.swift */,
-				1D64C9CC289F1A24006375AF /* DuckDuckGoSearch.swift */,
-				1D64C9CE289F1A2E006375AF /* GoogleSearch.swift */,
+				1D8A3430290C641C00C3A946 /* BingAPI.swift */,
 				1DB3BA0A28A0607E00AA9291 /* BingSearch.swift */,
+				1D8A342E290C641600C3A946 /* BingResult.swift */,
+				1D8A3426290C635500C3A946 /* DuckDuckGoAPI.swift */,
+				1D64C9CC289F1A24006375AF /* DuckDuckGoSearch.swift */,
+				1D8A3428290C63A400C3A946 /* DuckDuckGoResult.swift */,
+				1D8A342A290C63E600C3A946 /* GoogleAPI.swift */,
+				1D64C9CE289F1A2E006375AF /* GoogleSearch.swift */,
+				1D8A342C290C63EE00C3A946 /* GoogleResult.swift */,
 				1D95A54728AFF2370060E2F1 /* InfoPListEntry.swift */,
 			);
 			name = Models;
@@ -472,12 +490,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D8A3431290C641C00C3A946 /* BingAPI.swift in Sources */,
 				1D5E02D428A19ACD009B960F /* DuckDuckGoTableViewCell.swift in Sources */,
 				1D95A54828AFF2370060E2F1 /* InfoPListEntry.swift in Sources */,
+				1D8A3429290C63A400C3A946 /* DuckDuckGoResult.swift in Sources */,
 				1DF2564C28A8573C002C1DBF /* SearchResult.swift in Sources */,
 				1DF2565628AA2C17002C1DBF /* BingUIController.swift in Sources */,
 				1D5E02E328A1E565009B960F /* ViewController.swift in Sources */,
 				1D64C990289EF733006375AF /* GoogleViewController.swift in Sources */,
+				1D8A342F290C641600C3A946 /* BingResult.swift in Sources */,
 				1D34B2CD29036A9B00E1CE9D /* BingViewModel.swift in Sources */,
 				1DF255D628A4DA65002C1DBF /* ViewModel.swift in Sources */,
 				1DF2564628A6F73D002C1DBF /* SearchResultUIWebView.swift in Sources */,
@@ -487,10 +508,13 @@
 				1D64C9CD289F1A24006375AF /* DuckDuckGoSearch.swift in Sources */,
 				1DF255E528A6126B002C1DBF /* SearchResultUIView.swift in Sources */,
 				1DF2564A28A84F2B002C1DBF /* WebSearchViewModel.swift in Sources */,
+				1D8A3427290C635500C3A946 /* DuckDuckGoAPI.swift in Sources */,
 				1DF255DD28A4EFA5002C1DBF /* BingUIView.swift in Sources */,
 				1D64C9C5289EFD7C006375AF /* DuckDuckGoViewController.swift in Sources */,
 				1DB3BA0B28A0607E00AA9291 /* BingSearch.swift in Sources */,
 				1DB4D84C28AD601F00190DC1 /* SceneDelegate.swift in Sources */,
+				1D8A342D290C63EE00C3A946 /* GoogleResult.swift in Sources */,
+				1D8A342B290C63E600C3A946 /* GoogleAPI.swift in Sources */,
 				1D34B2D02905BAA600E1CE9D /* GoogleTableViewCell.swift in Sources */,
 				1DB4D83C28AC3E3A00190DC1 /* WebSearchAPI.swift in Sources */,
 				1D64C9CF289F1A2E006375AF /* GoogleSearch.swift in Sources */,
