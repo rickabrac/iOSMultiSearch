@@ -3,10 +3,10 @@
 //  MultiSearch
 //  Created by Rick Tyler
 //
+// MARK: Generic web search API class
+//
 
 import Foundation
-
-// MARK: Generic web search API class
 
 class WebSearchAPI<Search: SearchRequest, Result: SearchResult>: Codable {
 	typealias Search = SearchRequest

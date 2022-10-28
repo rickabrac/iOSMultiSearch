@@ -101,7 +101,6 @@ extension DuckDuckGoViewController: UITableViewDataSource {
 		cell.link.text = viewModel?.urlForRowAt(indexPath: indexPath)
 		cell.summary.text = viewModel?.textForRowAt(indexPath: indexPath)
 		cell.summary.sizeToFit()
-//		cell.accessibilityIdentifier = "DuckDuckGoSearchCell" + String(indexPath.row)
 		return cell
 	}
 }

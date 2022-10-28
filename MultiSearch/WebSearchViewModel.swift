@@ -3,10 +3,10 @@
 //  MultiSearch
 //  Created by Rick Tyler
 //
+// MARK: Generic web search view model class
+//
 
 import Foundation
-
-// MARK: Generic web search view model class
 
 class WebSearchViewModel<Search: SearchRequest, Result: SearchResult>: ViewModel {
 	var delegate: ViewController?
