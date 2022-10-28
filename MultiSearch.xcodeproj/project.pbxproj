@@ -308,10 +308,10 @@
 		1DF255DB28A4E817002C1DBF /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				1DF255D528A4DA65002C1DBF /* ViewModel.swift */,
-				1D5E02E228A1E565009B960F /* ViewController.swift */,
 				1DF255D328A4D695002C1DBF /* SearchRequest.swift */,
 				1DF2564B28A8573C002C1DBF /* SearchResult.swift */,
+				1DF255D528A4DA65002C1DBF /* ViewModel.swift */,
+				1D5E02E228A1E565009B960F /* ViewController.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";

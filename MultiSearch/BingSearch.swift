@@ -18,6 +18,13 @@ class BingSearch: SearchRequest {
 	}
 }
 
+// MARK: SearchResult conformance
+	
+extension BingResult: SearchResult {
+	var _text: String { guard let _text = snippet else { return "" }; return _text }
+	var _url: String { guard let _url = url else { return "" }; return _url }
+}
+
 // MARK: Codable backend response properties
 
 struct BingResult: Codable, Hashable {
@@ -27,13 +34,6 @@ struct BingResult: Codable, Hashable {
 
 struct BingResultValue: Codable {
 	var value: [BingResult]?
-}
-
-// MARK: SearchResult conformance
-	
-extension BingResult: SearchResult {
-	var _text: String { guard let _text = snippet else { return "" }; return _text }
-	var _url: String { guard let _url = url else { return "" }; return _url }
 }
 
 // MARK: Bing API
@@ -49,5 +49,3 @@ class BingAPI: WebSearchAPI<BingSearch, BingResult> {
 		[("Ocp-Apim-Subscription-Key", key.value)]
 	}
 }
-
-

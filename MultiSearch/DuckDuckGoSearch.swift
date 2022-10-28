@@ -36,19 +36,19 @@ class DuckDuckGoSearch: SearchRequest {
 	}
 }
 
+// MARK: SearchResult conformance
+
+extension DuckDuckGoResult: SearchResult {
+	var _text: String { guard let text = Text else { return "" }; return text }
+	var _url: String { guard let url = FirstURL else { return "" }; return url }
+}
+
 // MARK: Codable backend response properties
 
 struct DuckDuckGoResult: Codable {
 	var Text: String?
 	var FirstURL: String?
 	var Topics: [DuckDuckGoResult]?
-}
-
-// MARK: SearchResult conformance
-
-extension DuckDuckGoResult: SearchResult {
-	var _text: String { guard let text = Text else { return "" }; return text }
-	var _url: String { guard let url = FirstURL else { return "" }; return url }
 }
 
 // MARK: DuckDuckGo API
