@@ -1,5 +1,5 @@
 //
-//  APIKey.swift
+//  InfoPlistEntry.swift
 //  MultiSearch
 //  Created by Rick Tyler
 //
