@@ -47,7 +47,7 @@ class BingViewControllerTests: XCTestCase {
 		let vm = BingViewModel(api: BingAPI())
 		let uiView = BingUIView(viewModel: vm)
 		vc = UIHostingController(rootView: uiView)
-		vm.search("lkjasdfkjasdflkajsdfalkf")
+		vm.search("avdoihertoihefgafdg")
 		sleep(2)
 		assertSnapshot(matching: vc!, as: .image(on: .iPhoneX, traits: light))
 	}
