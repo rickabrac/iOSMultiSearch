@@ -21,7 +21,7 @@ class WebSearchViewModel<Search: SearchRequest, Result: SearchResult>: ViewModel
 	}
 	
 	func search(_ input: String) {
-		items = nil // nil indicates an in-progress search
+		items = nil
 		searching = true
 		delegate?.viewModelDidUpdate()
 		if cachingEnabled {
