@@ -30,7 +30,6 @@
     },
     {
       "skippedTests" : [
-        "UITestingDummy"
       ],
       "target" : {
         "containerPath" : "container:MultiSearch.xcodeproj",

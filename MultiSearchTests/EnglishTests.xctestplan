@@ -15,19 +15,10 @@
   "testTargets" : [
     {
       "skippedTests" : [
-        "BingSearchViewControllerTests",
-        "BingSearchViewControllerTests\/testBingSearchViewControllerNoResultDarkSpanish()",
-        "BingSearchViewControllerTests\/testBingSearchViewControllerNoResultLightSpanish()",
         "BingViewControllerTests\/testBingViewControllerNoResultDarkSpanish()",
         "BingViewControllerTests\/testBingViewControllerNoResultLightSpanish()",
-        "DuckDuckGoSearchViewControllerTests",
-        "DuckDuckGoSearchViewControllerTests\/testDuckDuckGoSearchNoResultDarkSpanish()",
-        "DuckDuckGoSearchViewControllerTests\/testDuckDuckGoSearchNoResultLightSpanish()",
         "DuckDuckGoViewControllerTests\/testDuckDuckGoNoResultDarkSpanish()",
         "DuckDuckGoViewControllerTests\/testDuckDuckGoNoResultLightSpanish()",
-        "GoogleSearchViewControllerTests",
-        "GoogleSearchViewControllerTests\/testGoogleSearchNoResultDarkSpanish()",
-        "GoogleSearchViewControllerTests\/testGoogleSearchNoResultLightSpanish()",
         "GoogleViewControllerTests\/testGoogleNoResultDarkSpanish()",
         "GoogleViewControllerTests\/testGoogleNoResultLightSpanish()"
       ],
