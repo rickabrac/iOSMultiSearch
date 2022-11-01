@@ -21,7 +21,7 @@
 
 • To run Spanish tests, select "MultiSearch Spanish (Latin America)" scheme, tap command-u, and view results in Test Plan Navigator.
 
-## Building
+## Notes
 
 • This app depends on swift-snapshot-testing, which is included via Swift Package Manager.
 
