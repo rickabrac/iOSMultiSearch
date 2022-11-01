@@ -26,7 +26,7 @@ class WebSearchViewModel<Search: SearchRequest, Result: SearchResult>: ViewModel
 		delegate?.viewModelDidUpdate()
 		if cachingEnabled {
 			do {
-				// google does not return same result twice so optional caching
+				// google does not return same result twice within 24 hours so optional caching
 				if let encoded = UserDefaults.standard.data(forKey: input.lowercased()) {
 					guard let cached = try JSONDecoder().decode(CachedResult<Result>?.self, from: encoded) else { return }
 					if Date().timeIntervalSince1970 - cached.created.timeIntervalSince1970 < 86400 {
