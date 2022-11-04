@@ -3,7 +3,7 @@
 //  MultiSearch
 //  Created by Rick Tyler
 //
-// MARK: Generic web search API class
+//  MARK: Generic web search API class
 //
 
 import Foundation
@@ -20,8 +20,7 @@ class WebSearchAPI<Search: SearchRequest, Result: SearchResult>: Codable {
 	
 	func fetch(_ input: String, completionHandler: @escaping ([SearchResult], String) -> Void) {
 		if input.count == 0 {
-			let emptyResult: [SearchResult] = []
-			completionHandler(emptyResult, "")
+			completionHandler([], "")
 			return
 		}
 		let url: URL?
@@ -38,7 +37,7 @@ class WebSearchAPI<Search: SearchRequest, Result: SearchResult>: Codable {
 		}
 		request.httpMethod = "GET"
 		let task = URLSession.shared.dataTask(with: request, completionHandler: { (data, response, error) in
-			var result: [SearchResult] = []
+			var result = [SearchResult]()
 			var errorString: String = ""
 			defer {
 				completionHandler(result, errorString)

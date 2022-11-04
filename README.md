@@ -5,11 +5,11 @@
 
 • Use the iPhone 11 Pro simulator for everything.
 
-• Use "MultiSearch" scheme for everything except Spanish language tests (see below).
+• Use MultiSearch scheme for everything except Spanish language tests (see below).
 
 • This app supports dark and light modes.
 
-• Ths app is localized for English and Latin-American Spanish (search engine results are only in English).
+• This app is localized for English and Latin-American Spanish (search engine results are only in English however).
 
 • Views are built three ways: UIKit/Storyboard (DuckDuckGo), Declarative UIKit (Google), and SwiftUI (Bing)
 
@@ -17,14 +17,14 @@
 
 • The project is configured to use Test Plans.
 
-• To run the English tests, select "MultiSearch" scheme, tap command-u, and view results in Test Plan Navigator.
+• To run English tests, select MultiSearch scheme, tap command-u, and view results in Test Plan Navigator.
 
 • To run Spanish tests, select "MultiSearch Spanish (Latin America)" scheme, tap command-u, and view results in Test Plan Navigator.
 
 ## Notes
 
-• This app depends on swift-snapshot-testing, which is included via Swift Package Manager.
+• This app depends on swift-snapshot-testing, included via Swift Package Manager.
 
 ## Errata
 
-• In Xcode 13.1, view controller snapshot tests may fail due to claimed insufficient permissions on cloned repositories.
+• In Xcode 13.1, view controller snapshot tests may fail due to claimed insufficient permissions on a cloned repository.
